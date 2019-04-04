@@ -1,0 +1,15 @@
+idea 导入eclipse项目配置：
+https://blog.csdn.net/kfm1376822651/article/details/79666586
+注意：把webContent文件名改为Web
+
+编码 BOM问题：报错Error(1,1)  java :非法字符：‘\ufeef\’ 
+原因：eclipse可以智能的把UTF-8+BOM文件转换为普通的UTF-8文件,IDEA则不行
+解决方案：在IDEA底部先转化为GBK,在转为UTF-8
+问题：中文编码找不到了
+
+
+
+https://open.alipay.com   进入首页 注册账户 使用沙箱环境
+https://docs.open.alipay.com/270   支付宝开发者中心
+
+www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html  //理解数字签名
